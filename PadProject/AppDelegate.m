@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "GuideViewController.h"
+#import "SplitViewController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +20,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    [self setupVC];
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
+- (void)setupVC{
+    BOOL isFirst = [[NSUserDefaults standardUserDefaults] boolForKey:kIsFirstLaunchAPP];
+    if (isFirst == NO) {
+        GuideViewController *guideVC = [[GuideViewController alloc] init];
+        [self.window setRootViewController:guideVC];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kIsFirstLaunchAPP];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }else if (YES){
+        LoginViewController *vc = [[LoginViewController alloc]init];
+        self.window.rootViewController = vc;
+    }else{
+        SplitViewController  * vc = [[SplitViewController alloc] init];
+        self.window.rootViewController = vc;
+    }
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

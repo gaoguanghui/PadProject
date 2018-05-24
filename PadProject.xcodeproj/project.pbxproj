@@ -7,25 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E11BF69663863498185474 /* libPods-PadProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C47F338DD212776447788CE /* libPods-PadProject.a */; };
+		A75510FF20AE5CBB00BAEEF9 /* BaseNavigarionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75510FE20AE5CBB00BAEEF9 /* BaseNavigarionController.m */; };
+		A755110320AE751100BAEEF9 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A755110220AE751100BAEEF9 /* UIImage+Common.m */; };
+		A755110620AEAA8600BAEEF9 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = A755110520AEAA8600BAEEF9 /* UIColor+expanded.m */; };
+		A755110920AEAAE700BAEEF9 /* LoginTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = A755110820AEAAE700BAEEF9 /* LoginTextFieldView.m */; };
+		A755110C20AEB00100BAEEF9 /* LoginButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A755110B20AEB00100BAEEF9 /* LoginButtonView.m */; };
+		A755111020AEC63D00BAEEF9 /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A755110F20AEC63D00BAEEF9 /* RequestUtil.m */; };
+		A755111420AEC90E00BAEEF9 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A755111320AEC90E00BAEEF9 /* LoginViewModel.m */; };
 		A766353C20AC12F90009ECAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A766353B20AC12F90009ECAB /* AppDelegate.m */; };
-		A766353F20AC12F90009ECAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A766353E20AC12F90009ECAB /* ViewController.m */; };
 		A766354220AC12F90009ECAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A766354020AC12F90009ECAB /* Main.storyboard */; };
 		A766354420AC12FB0009ECAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A766354320AC12FB0009ECAB /* Assets.xcassets */; };
 		A766354720AC12FB0009ECAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A766354520AC12FB0009ECAB /* LaunchScreen.storyboard */; };
 		A766354A20AC12FB0009ECAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A766354920AC12FB0009ECAB /* main.m */; };
+		A766356620AC24F50009ECAB /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A766356520AC24F50009ECAB /* GuideViewController.m */; };
+		A766356D20AC286C0009ECAB /* GuideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A766356C20AC286C0009ECAB /* GuideCollectionViewCell.m */; };
+		A776FEDC20AD5478007F495E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A776FEDB20AD5478007F495E /* LoginViewController.m */; };
+		A776FEE120AD7508007F495E /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A776FEE020AD7508007F495E /* SplitViewController.m */; };
+		A776FEE420AD76B5007F495E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A776FEE320AD76B5007F495E /* LeftViewController.m */; };
+		A776FEE720AD76BE007F495E /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A776FEE620AD76BE007F495E /* RightViewController.m */; };
+		A791D70D20B3FAF200DFA2AB /* LoginAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A791D70C20B3FAF200DFA2AB /* LoginAnimationView.m */; };
+		A796D1D220B69D920049AE29 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A796D1D120B69D920049AE29 /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90A2C824104E19FDC7E52A2C /* Pods-PadProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PadProject/Pods-PadProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9C47F338DD212776447788CE /* libPods-PadProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PadProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75510FD20AE5CBB00BAEEF9 /* BaseNavigarionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigarionController.h; sourceTree = "<group>"; };
+		A75510FE20AE5CBB00BAEEF9 /* BaseNavigarionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigarionController.m; sourceTree = "<group>"; };
+		A755110120AE751100BAEEF9 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		A755110220AE751100BAEEF9 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		A755110420AEAA8600BAEEF9 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		A755110520AEAA8600BAEEF9 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		A755110720AEAAE700BAEEF9 /* LoginTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTextFieldView.h; sourceTree = "<group>"; };
+		A755110820AEAAE700BAEEF9 /* LoginTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTextFieldView.m; sourceTree = "<group>"; };
+		A755110A20AEB00100BAEEF9 /* LoginButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginButtonView.h; sourceTree = "<group>"; };
+		A755110B20AEB00100BAEEF9 /* LoginButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginButtonView.m; sourceTree = "<group>"; };
+		A755110E20AEC63D00BAEEF9 /* RequestUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestUtil.h; sourceTree = "<group>"; };
+		A755110F20AEC63D00BAEEF9 /* RequestUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestUtil.m; sourceTree = "<group>"; };
+		A755111220AEC90E00BAEEF9 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		A755111320AEC90E00BAEEF9 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		A766353720AC12F90009ECAB /* PadProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A766353A20AC12F90009ECAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A766353B20AC12F90009ECAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A766353D20AC12F90009ECAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A766353E20AC12F90009ECAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A766354120AC12F90009ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A766354320AC12FB0009ECAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A766354620AC12FB0009ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A766354820AC12FB0009ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A766354920AC12FB0009ECAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A766355020AC140D0009ECAB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A766356420AC24F50009ECAB /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		A766356520AC24F50009ECAB /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		A766356B20AC286C0009ECAB /* GuideCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideCollectionViewCell.h; sourceTree = "<group>"; };
+		A766356C20AC286C0009ECAB /* GuideCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideCollectionViewCell.m; sourceTree = "<group>"; };
+		A776FEDA20AD5478007F495E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A776FEDB20AD5478007F495E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A776FEDF20AD7508007F495E /* SplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		A776FEE020AD7508007F495E /* SplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		A776FEE220AD76B5007F495E /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		A776FEE320AD76B5007F495E /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		A776FEE520AD76BE007F495E /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		A776FEE620AD76BE007F495E /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		A791D70B20B3FAF200DFA2AB /* LoginAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAnimationView.h; sourceTree = "<group>"; };
+		A791D70C20B3FAF200DFA2AB /* LoginAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAnimationView.m; sourceTree = "<group>"; };
+		A796D1D020B69D920049AE29 /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		A796D1D120B69D920049AE29 /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		E6D894BD96707443DC59A01E /* Pods-PadProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PadProject/Pods-PadProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +80,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E11BF69663863498185474 /* libPods-PadProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86DEE02C634C2AAD5430C6B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90A2C824104E19FDC7E52A2C /* Pods-PadProject.debug.xcconfig */,
+				E6D894BD96707443DC59A01E /* Pods-PadProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		962A49458807E5A4D1CC0F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C47F338DD212776447788CE /* libPods-PadProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A755110020AE751100BAEEF9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A755110420AEAA8600BAEEF9 /* UIColor+expanded.h */,
+				A755110520AEAA8600BAEEF9 /* UIColor+expanded.m */,
+				A755110120AE751100BAEEF9 /* UIImage+Common.h */,
+				A755110220AE751100BAEEF9 /* UIImage+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A755110D20AEC61400BAEEF9 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A755110E20AEC63D00BAEEF9 /* RequestUtil.h */,
+				A755110F20AEC63D00BAEEF9 /* RequestUtil.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A755111120AEC8E800BAEEF9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A755111220AEC90E00BAEEF9 /* LoginViewModel.h */,
+				A755111320AEC90E00BAEEF9 /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A766352E20AC12F90009ECAB = {
 			isa = PBXGroup;
 			children = (
 				A766353920AC12F90009ECAB /* PadProject */,
 				A766353820AC12F90009ECAB /* Products */,
+				86DEE02C634C2AAD5430C6B1 /* Pods */,
+				962A49458807E5A4D1CC0F1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +156,135 @@
 			children = (
 				A766353A20AC12F90009ECAB /* AppDelegate.h */,
 				A766353B20AC12F90009ECAB /* AppDelegate.m */,
-				A766353D20AC12F90009ECAB /* ViewController.h */,
-				A766353E20AC12F90009ECAB /* ViewController.m */,
+				A766355420AC1B3B0009ECAB /* Classes */,
+				A755110D20AEC61400BAEEF9 /* Request */,
+				A766355220AC1AA30009ECAB /* Utils */,
+				A766355320AC1B1E0009ECAB /* Vender */,
 				A766354020AC12F90009ECAB /* Main.storyboard */,
 				A766354320AC12FB0009ECAB /* Assets.xcassets */,
 				A766354520AC12FB0009ECAB /* LaunchScreen.storyboard */,
 				A766354820AC12FB0009ECAB /* Info.plist */,
 				A766354920AC12FB0009ECAB /* main.m */,
+				A766355020AC140D0009ECAB /* PrefixHeader.pch */,
 			);
 			path = PadProject;
+			sourceTree = "<group>";
+		};
+		A766355220AC1AA30009ECAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A755110020AE751100BAEEF9 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A766355320AC1B1E0009ECAB /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A766355420AC1B3B0009ECAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A766355520AC1B510009ECAB /* Base */,
+				A766355820AC1BCD0009ECAB /* Main */,
+				A766355620AC1B710009ECAB /* Login */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A766355520AC1B510009ECAB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A776FEDF20AD7508007F495E /* SplitViewController.h */,
+				A776FEE020AD7508007F495E /* SplitViewController.m */,
+				A75510FD20AE5CBB00BAEEF9 /* BaseNavigarionController.h */,
+				A75510FE20AE5CBB00BAEEF9 /* BaseNavigarionController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A766355620AC1B710009ECAB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A755111120AEC8E800BAEEF9 /* ViewModel */,
+				A766356820AC250D0009ECAB /* Model */,
+				A766356720AC250D0009ECAB /* View */,
+				A766356320AC24F50009ECAB /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A766355820AC1BCD0009ECAB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A766356A20AC251C0009ECAB /* Model */,
+				A766356920AC251C0009ECAB /* View */,
+				A766355F20AC24A20009ECAB /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A766355F20AC24A20009ECAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A776FEE220AD76B5007F495E /* LeftViewController.h */,
+				A776FEE320AD76B5007F495E /* LeftViewController.m */,
+				A776FEE520AD76BE007F495E /* RightViewController.h */,
+				A776FEE620AD76BE007F495E /* RightViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A766356320AC24F50009ECAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A766356420AC24F50009ECAB /* GuideViewController.h */,
+				A766356520AC24F50009ECAB /* GuideViewController.m */,
+				A776FEDA20AD5478007F495E /* LoginViewController.h */,
+				A776FEDB20AD5478007F495E /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A766356720AC250D0009ECAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A766356B20AC286C0009ECAB /* GuideCollectionViewCell.h */,
+				A766356C20AC286C0009ECAB /* GuideCollectionViewCell.m */,
+				A755110720AEAAE700BAEEF9 /* LoginTextFieldView.h */,
+				A755110820AEAAE700BAEEF9 /* LoginTextFieldView.m */,
+				A755110A20AEB00100BAEEF9 /* LoginButtonView.h */,
+				A755110B20AEB00100BAEEF9 /* LoginButtonView.m */,
+				A791D70B20B3FAF200DFA2AB /* LoginAnimationView.h */,
+				A791D70C20B3FAF200DFA2AB /* LoginAnimationView.m */,
+				A796D1D020B69D920049AE29 /* ProgressView.h */,
+				A796D1D120B69D920049AE29 /* ProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A766356820AC250D0009ECAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A766356920AC251C0009ECAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A766356A20AC251C0009ECAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A766354D20AC12FB0009ECAB /* Build configuration list for PBXNativeTarget "PadProject" */;
 			buildPhases = (
+				83A6C386F91AD70B3D178185 /* [CP] Check Pods Manifest.lock */,
 				A766353320AC12F90009ECAB /* Sources */,
 				A766353420AC12F90009ECAB /* Frameworks */,
 				A766353520AC12F90009ECAB /* Resources */,
+				CD68654FC54288ED0FBDEF70 /* [CP] Embed Pods Frameworks */,
+				669CD0E0EC23D91F973131F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +355,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		669CD0E0EC23D91F973131F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadProject/Pods-PadProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A6C386F91AD70B3D178185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PadProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD68654FC54288ED0FBDEF70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadProject/Pods-PadProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A766353320AC12F90009ECAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A766353F20AC12F90009ECAB /* ViewController.m in Sources */,
+				A755110920AEAAE700BAEEF9 /* LoginTextFieldView.m in Sources */,
 				A766354A20AC12FB0009ECAB /* main.m in Sources */,
+				A776FEE420AD76B5007F495E /* LeftViewController.m in Sources */,
+				A791D70D20B3FAF200DFA2AB /* LoginAnimationView.m in Sources */,
+				A755111020AEC63D00BAEEF9 /* RequestUtil.m in Sources */,
+				A755110620AEAA8600BAEEF9 /* UIColor+expanded.m in Sources */,
+				A796D1D220B69D920049AE29 /* ProgressView.m in Sources */,
+				A766356620AC24F50009ECAB /* GuideViewController.m in Sources */,
+				A776FEE120AD7508007F495E /* SplitViewController.m in Sources */,
+				A776FEDC20AD5478007F495E /* LoginViewController.m in Sources */,
+				A755111420AEC90E00BAEEF9 /* LoginViewModel.m in Sources */,
+				A776FEE720AD76BE007F495E /* RightViewController.m in Sources */,
+				A755110320AE751100BAEEF9 /* UIImage+Common.m in Sources */,
+				A755110C20AEB00100BAEEF9 /* LoginButtonView.m in Sources */,
+				A766356D20AC286C0009ECAB /* GuideCollectionViewCell.m in Sources */,
 				A766353C20AC12F90009ECAB /* AppDelegate.m in Sources */,
+				A75510FF20AE5CBB00BAEEF9 /* BaseNavigarionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +565,13 @@
 		};
 		A766354E20AC12FB0009ECAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A2C824104E19FDC7E52A2C /* Pods-PadProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDJE97CX57;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sansimac/Desktop/PadProject/PadProject/PrefixHeader.pch;
 				INFOPLIST_FILE = PadProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +585,13 @@
 		};
 		A766354F20AC12FB0009ECAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D894BD96707443DC59A01E /* Pods-PadProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YDJE97CX57;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/sansimac/Desktop/PadProject/PadProject/PrefixHeader.pch;
 				INFOPLIST_FILE = PadProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
